@@ -1209,99 +1209,149 @@ h3 {
 
 
 /* 어바웃 시작. 메인 슬라이드 밑 첫번째 컨테인 */
-.about_area {
+.ms_area {
   padding-top: 200px;
   padding-bottom: 100px;
   position: relative;
 }
 
-.about_area .shape-1 {
+/* 공 띄어 놓은 것*/
+.ms_area .shape-1 {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.about_area .shape-2 {
+.ms_area .shape-2 {
   position: absolute;
   bottom: 15%;
   right: 0;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .about_area .shape-2 {
+  .ms_area .shape-2 {
     bottom: 3%;
   }
 }
+/*공 띄우기 끝*/
+
 
 @media (max-width: 767px) {
-  .about_area {
+  .ms_area {
     padding-top: 40px;
     padding-bottom: 30px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .about_area {
+  .ms_area {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
+/*어바웃 컨테인 media 설정 끝*/
 
-.about_area .about_thumb {
+.ms_area .service_thumb {
   position: relative;
   z-index: 2;
 }
 
-.about_area .about_thumb img {
+.ms_area .service_thumb img {
   width: 100%;
+  height: 450px; 
 }
 
-.about_area .about_thumb .exprience {
+.ms_area .service_thumb .title {
   position: absolute;
+  width: 80%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   display: inline-block;
-  padding: 40px 45px;
+  padding: 5%;
   background: #fff;
   text-align: center;
   left: 50%;
 }
 
-.about_area .about_thumb .exprience h1 {
+.ms_area .service_thumb .title h1 {
   color: #131313;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 40px;
   margin-bottom: 2px;
 }
 
-@media (max-width: 767px) {
-  .about_area .about_thumb .exprience h1 {
-    font-size: 30px;
+@media (max-width: 375px) {
+  .ms_area .service_thumb .title h1 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 991px) {
+  .ms_area .service_thumb .title h1 {
+    font-size: 24px;
   }
 }
 
-.about_area .about_thumb .exprience span {
+.ms_area .service_thumb .title span {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   color: #808080;
 }
 
-@media (max-width: 767px) {
-  .about_area .about_info {
+/* */
+.ms_area .service_info {
+  position: relative;
+  z-index: 2;
+}
+
+.ms_area .service_info img {
+  width: 100%;
+  height: 150px; 
+}
+
+.ms_area .service_info .title {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 5%;
+  background: #fff;
+  text-align: center;
+  left: 50%;
+}
+
+.ms_area .service_info .title h1 {
+  color: #131313;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 991px) {
+  .ms_area .service_info .title h1 {
+    font-size: 24px;
+  }
+}
+
+
+/*@media (max-width: 767px) {
+  .ms_area .service_info {
     margin-top: 30px;
   }
 }
 
-.about_area .about_info .about_list {
+.ms_area .service_info .service_list {
   margin-bottom: 50px;
   margin-top: 34px;
 }
 
-.about_area .about_info .about_list li {
+.ms_area .service_info .service_list li {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -1312,12 +1362,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  .about_area .about_info .about_list li {
+  .ms_area .service_info .service_list li {
     font-size: 14px;
   }
 }
 
-.about_area .about_info .about_list li::before {
+.ms_area .service_info .service_list li::before {
   content: "";
   background: #02c856;
   width: 15px;
@@ -1330,7 +1380,7 @@ h3 {
   transform: translateY(-50%);
 }
 
-.about_area .about_info p {
+.ms_area .service_info p {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1340,15 +1390,15 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  .about_area .about_info p {
+  .ms_area .service_info p {
     margin-bottom: 30px;
   }
 }
 
-.about_area .about_info a {
+.ms_area .service_info a {
   text-align: center;
 }
-
+*/
 /* 어바웃 끝 */
 
 .dream_service {
